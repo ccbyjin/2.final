@@ -29,7 +29,7 @@ const pressEnter = () => {
       type="text"
       :id="props.id"
       :placeholder="props.placeHolderText"
-      v-model.lazy="temp"
+      v-model="temp"
       @keyup.enter="pressEnter"
       class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-300 focus:border-green-300 max-w-full	p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
     />
